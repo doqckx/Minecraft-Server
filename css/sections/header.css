@@ -1,0 +1,47 @@
+.header {
+    height: 120px;
+    width: 100%;
+    background-color: #190037;
+    display: flex;
+    border-bottom: 6px solid #FF0040;
+    box-shadow: 0px 6px 6px #ff004042;
+}
+
+.header_container {
+    height: 100%;
+    width: 100%;
+}
+.logo {
+}
+.logo-icon {
+}
+.logo-title {
+}
+.header-buttons {
+}
+.rules-btn {
+}
+.header-buttons_underline {
+}
+.donate-btn {
+}
+.cases-btn {
+}
+.social-media {
+}
+.discord {
+}
+.discord_container {
+}
+.discord-logo {
+}
+.discord-title {
+}
+.vkontakte {
+}
+.vkontakte_container {
+}
+.vkontakte-logo {
+}
+.vkontakte-title {
+}
