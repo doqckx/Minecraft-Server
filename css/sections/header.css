@@ -11,13 +11,13 @@
     height: 100%;
     width: 100%;
     display: flex;
+    justify-content: space-around;
 }
 .logo {
-    width: 500px;
+    width: 425px;
     height: 100%;
-    margin-right: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo-icon {
     width: 180px;
@@ -45,9 +45,9 @@
 
 .header-buttons {
     height: 100%;
-    width: 500px;
+    width: 450px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header-btn {
@@ -65,21 +65,21 @@
     display: flex;
     flex-direction: column;
 }
-.social-media {
+
+.information-container {
+    width: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
-.discord {
+
+.server-ip {
+    display: block;
 }
-.discord_container {
-}
-.discord-logo {
-}
-.discord-title {
-}
-.vkontakte {
-}
-.vkontakte_container {
-}
-.vkontakte-logo {
-}
-.vkontakte-title {
+
+.server-version {
+    display: block;
 }
