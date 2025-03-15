@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Server</title>
-    <link rel="stylesheet" href="./css/main/main.css">
+    <link rel="stylesheet" href="./css/base/base.css">
     <link rel="stylesheet" href="./css/sections/header.css">
-    <link rel="stylesheet" href="./css/sections/privileges.css">
+    <link rel="stylesheet" href="./css/sections/main.css">
     <link rel="stylesheet" href="./css/sections/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="background"></div>
     <header class="header">
         <div class="header_container">
             <div class="logo">
@@ -49,7 +50,7 @@
         </div>
     </header>
     <main class="main">
-        <div class="priveleges">
+        <div class="main-container priveleges">
             <ul class="priveleges-list">
                 <li class="priveleges-card">
                     <div class="priveleges-card-titul">
@@ -140,34 +141,34 @@
                     </div>
                 </li>
             </ul>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="footer_container">
-            <div class="logo">
-                <div class="logo-icon">
+        </main>
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="logo">
+                    <div class="logo-icon">
 
-                </div>
-                <div class="logo-title">
+                    </div>
+                    <div class="logo-title">
 
+                    </div>
                 </div>
+                <ul class="contacts">
+                    <li class="email">
+                        <div class="email-titul"></div>
+                        <a href="mailto:prodavec407@gmail.com" class="email-link">
+
+                        </a>
+                    </li>
+                    <li class="phone-number">
+                        <div class="phone-number-titul"></div>
+                        <a href="tel:+34645429039" class="phone-number-link"></a>
+                    </li>
+                </ul>
             </div>
-            <ul class="contacts">
-                <li class="email">
-                    <div class="email-titul"></div>
-                    <a href="mailto:prodavec407@gmail.com" class="email-link">
+        </footer>
 
-                    </a>
-                </li>
-                <li class="phone-number">
-                    <div class="phone-number-titul"></div>
-                    <a href="tel:+34645429039" class="phone-number-link"></a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-
-    <!-- Script -->
-    <script src="./js/main.js"></script>
+        <!-- Script -->
+        <script src="./js/main.js"></script>
+    </div>
 </body>
 </html>
