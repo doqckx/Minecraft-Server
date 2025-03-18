@@ -1,32 +1,33 @@
 .header {
-    height: 120px;
+    height: 100px;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .header_container {
     height: 100%;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
 .logo {
-    width: 400px;
+    width: 330px;
     height: 100%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     display: flex;
     justify-content: space-between;
 }
 .logo-icon {
-    width: 160px;
-    height: 80px;
+    width: 140px;
+    height: 70px;
     display: flex;
     align-self: center;
 }
 .logo-title { 
     display: flex;
     align-self: center;
-    font-size: 55px;
+    font-size: 45px;
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -43,13 +44,13 @@
 
 .header-buttons {
     height: 100%;
-    width: 450px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-btn {
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     text-align: center;
     align-self: center;
@@ -57,7 +58,7 @@
 }
 
 .header-btn-underline {
-    height: 5px;
+    height: 4px;
     width: 100%;
     background-color: #FF0040;
     display: flex;
@@ -67,12 +68,12 @@
 .information-container {
     width: 100%;
     width: max-content;
-    margin-right: 60px;
+    /* margin-right: 60px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .server-ip {
