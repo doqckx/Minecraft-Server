@@ -12,22 +12,21 @@
     justify-content: space-between;
 }
 .logo {
-    width: 330px;
+    width: 270px;
     height: 100%;
-    /* margin-left: 20px; */
     display: flex;
     justify-content: space-between;
 }
 .logo-icon {
-    width: 140px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
     display: flex;
     align-self: center;
 }
 .logo-title { 
     display: flex;
     align-self: center;
-    font-size: 45px;
+    font-size: 40px;
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -68,12 +67,11 @@
 .information-container {
     width: 100%;
     width: max-content;
-    /* margin-right: 60px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .server-ip {
