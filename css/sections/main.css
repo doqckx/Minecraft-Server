@@ -1,15 +1,35 @@
 .main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main-container {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(16, 0, 39, 0.623);
     display: flex;
 }
-/* .main-container {
-    width: 1400px;
-    height: 700px;
-    background-color: #2A005E;
-    display: flex;
-    align-self: center;
-} */
-.priveleges {
+
+.box-light{
+    width: 100%;
+    z-index: 0;
 }
+
+.box-light-line{
+    height: 4px;
+    width: 100%;
+    background-color: #FF0040;
+}
+
+.box-light-shadow{
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 0, 90, 0.2) 0%, rgba(255, 0, 90, 0) 100%);
+}
+
 .priveleges-list {
 }
 .priveleges-card {
